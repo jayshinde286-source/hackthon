@@ -1,0 +1,54 @@
+{
+  "manifest_version": "1.0",
+  "export_id": "EXP-VERIFIED-25K",
+  "export_timestamp_utc": "2026-10-29T14:25:02.872323+00:00",
+  "source_identifier": "accounts_master_tbl",
+  "export_format": "csv",
+  "compression_format": "gzip",
+  "schema_fingerprint": "ca5bc604742ae39637d0b5dbfed310b023297c407f414b2ea7b6effe4fd8171f",
+  "expected_row_count": 25000,
+  "uncompressed_size_bytes": 3539002,
+  "uncompressed_sha256": "41a9b26c3fe26a0aa8d038fa1955f99957c9f13aeb7045b14424c216e828551b",
+  "chunking_scheme": "fixed_bytes_1MB",
+  "chunk_hashes": [
+    {
+      "index": 0,
+      "start_byte": 0,
+      "end_byte": 1048576,
+      "length_bytes": 1048576,
+      "sha256": "0a8cfb372605f6b9c6f84fb47241fea8b1d4af93401472a1814c112e904d67e8",
+      "record_count": null
+    },
+    {
+      "index": 1,
+      "start_byte": 1048576,
+      "end_byte": 2097152,
+      "length_bytes": 1048576,
+      "sha256": "4191b055cc7c07c1ff5618102dbdafe1430882d1a7c4cfa3f3403703127dbfb5",
+      "record_count": null
+    },
+    {
+      "index": 2,
+      "start_byte": 2097152,
+      "end_byte": 3145728,
+      "length_bytes": 1048576,
+      "sha256": "ced8d720b943613cf1ad444300bafde3752fd50bba22c6874f0b88400e0da3e7",
+      "record_count": null
+    },
+    {
+      "index": 3,
+      "start_byte": 3145728,
+      "end_byte": 3539002,
+      "length_bytes": 393274,
+      "sha256": "cb8a53703c178c9fe5a4c0174ae22022433de0e795df55ecc28a43e9e705924a",
+      "record_count": null
+    }
+  ],
+  "record_counting_convention": "data_rows_excluding_header",
+  "generation_method": "dbguard_manifest_generator",
+  "producer_version": "1.0.0",
+  "trusted_reference_status": "TRUSTED_EXPORT_PIPELINE",
+  "is_observational": false,
+  "compressed_size_bytes": 772817,
+  "compressed_sha256": "bd514a8cfcb31ef967eaea9cc5ae05abdb1607f8a42d6706d59dbd194553a57c"
+}

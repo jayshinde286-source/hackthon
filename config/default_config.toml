@@ -1,0 +1,36 @@
+[limits]
+# Maximum allowed compressed file size (bytes): default 500 MB for demo / configurable
+max_compressed_size_bytes = 524288000
+# Maximum allowed decompressed size (bytes) to prevent compression bombs: default 5 GB
+max_decompressed_size_bytes = 5368709120
+# Maximum allowed compression expansion ratio (decompressed / compressed)
+max_expansion_ratio = 100.0
+# Streaming read buffer size in bytes (64 KB)
+chunk_size_bytes = 65536
+# Max detailed parse errors to store in memory before aggregating
+max_diagnostic_errors = 100
+
+[parser]
+csv_delimiter = ","
+csv_quotechar = '"'
+csv_encoding = "utf-8"
+csv_has_header = true
+csv_max_field_size = 1048576
+
+[anomalies]
+# Threshold for unexpected compressed size decrease when row count increases (ratio or %)
+size_drop_row_increase_threshold_pct = 5.0
+# Relative change in bytes-per-row that triggers a warning (%)
+bytes_per_row_change_threshold_pct = 25.0
+# Compression ratio change threshold (%)
+compression_ratio_change_threshold_pct = 30.0
+# Minimum historical observations needed for statistical anomaly detection (MAD/IQR)
+min_history_for_statistics = 5
+# Z-score or MAD cutoff multiplier
+anomaly_mad_cutoff = 3.0
+
+[hashing]
+# Chunk size for chunk-based verification (1 MB)
+chunk_verify_bytes = 1048576
+hash_algorithm = "sha256"
+

@@ -1,0 +1,134 @@
+{
+  "manifest_version": "1.0",
+  "export_id": "EXP-DAILY-BACKUP-100K",
+  "export_timestamp_utc": "2026-10-29T14:25:02.567815+00:00",
+  "source_identifier": "production_transactions_tbl",
+  "export_format": "csv",
+  "compression_format": "gzip",
+  "schema_fingerprint": "ca5bc604742ae39637d0b5dbfed310b023297c407f414b2ea7b6effe4fd8171f",
+  "expected_row_count": 100000,
+  "uncompressed_size_bytes": 14218132,
+  "uncompressed_sha256": "dacc2967bbaca19b24514a27c00ce3f400603f7082c78c1876a42a4b7b7cdcc4",
+  "chunking_scheme": "fixed_bytes_1MB",
+  "chunk_hashes": [
+    {
+      "index": 0,
+      "start_byte": 0,
+      "end_byte": 1048576,
+      "length_bytes": 1048576,
+      "sha256": "55d50eaa80c86dbb17e0d8b785c142dc27965f6d0cede6e3335911b7a96d4918",
+      "record_count": null
+    },
+    {
+      "index": 1,
+      "start_byte": 1048576,
+      "end_byte": 2097152,
+      "length_bytes": 1048576,
+      "sha256": "ee99f79a9c566668f1fc935bf4ce3f594eab09cf34ef48cd666b54631f6ee265",
+      "record_count": null
+    },
+    {
+      "index": 2,
+      "start_byte": 2097152,
+      "end_byte": 3145728,
+      "length_bytes": 1048576,
+      "sha256": "9c214a1b894a3eecb369f4f1edc1adb4f1f3a8e951cc115c0bf9a2206b3fb3e4",
+      "record_count": null
+    },
+    {
+      "index": 3,
+      "start_byte": 3145728,
+      "end_byte": 4194304,
+      "length_bytes": 1048576,
+      "sha256": "d5803d613c13797b32e356eb1ad5921a78d66b85ed93f1130d168f051de19066",
+      "record_count": null
+    },
+    {
+      "index": 4,
+      "start_byte": 4194304,
+      "end_byte": 5242880,
+      "length_bytes": 1048576,
+      "sha256": "a5de1c2dd5f4a5d4607598c9a071959d69963cff11fc5e6279f1cbc81169db9e",
+      "record_count": null
+    },
+    {
+      "index": 5,
+      "start_byte": 5242880,
+      "end_byte": 6291456,
+      "length_bytes": 1048576,
+      "sha256": "539f6290e37b35f0cea5022bfda7b5bc3891bb192431887e68d348ebd0bfc425",
+      "record_count": null
+    },
+    {
+      "index": 6,
+      "start_byte": 6291456,
+      "end_byte": 7340032,
+      "length_bytes": 1048576,
+      "sha256": "37727ba20d048123e7e3b9d41593511b7a384df403dd9991fa0c039b695db18e",
+      "record_count": null
+    },
+    {
+      "index": 7,
+      "start_byte": 7340032,
+      "end_byte": 8388608,
+      "length_bytes": 1048576,
+      "sha256": "cd27616f19f4642e4a996011bf9170da3fa4b369cb279a6abbc6392097023aff",
+      "record_count": null
+    },
+    {
+      "index": 8,
+      "start_byte": 8388608,
+      "end_byte": 9437184,
+      "length_bytes": 1048576,
+      "sha256": "1de2850855b324d00b3a693aae6bad42bead9af356b4b4d6414019b18698ccff",
+      "record_count": null
+    },
+    {
+      "index": 9,
+      "start_byte": 9437184,
+      "end_byte": 10485760,
+      "length_bytes": 1048576,
+      "sha256": "7eaadf4c7feb0344573f2eda1308e1d1dcf729fa3ec2435014f11db84775e4f5",
+      "record_count": null
+    },
+    {
+      "index": 10,
+      "start_byte": 10485760,
+      "end_byte": 11534336,
+      "length_bytes": 1048576,
+      "sha256": "9e065e1b52ffc081a99d4b4344433baf8a1f7c6aa172d522a4a99a57f9552b04",
+      "record_count": null
+    },
+    {
+      "index": 11,
+      "start_byte": 11534336,
+      "end_byte": 12582912,
+      "length_bytes": 1048576,
+      "sha256": "8c89e95880220bb00b42e07ecae72bd5b7c01a2efa4aaae5e0c7744a993c591d",
+      "record_count": null
+    },
+    {
+      "index": 12,
+      "start_byte": 12582912,
+      "end_byte": 13631488,
+      "length_bytes": 1048576,
+      "sha256": "30d29fae25965c9ef0a368a626628982e522e28de2f69e97123918684f4d296e",
+      "record_count": null
+    },
+    {
+      "index": 13,
+      "start_byte": 13631488,
+      "end_byte": 14218132,
+      "length_bytes": 586644,
+      "sha256": "680c1651e8615cd4de75576e28d078f5ec9479bcf9533786c69cc4bcc9068095",
+      "record_count": null
+    }
+  ],
+  "record_counting_convention": "data_rows_excluding_header",
+  "generation_method": "dbguard_manifest_generator",
+  "producer_version": "1.0.0",
+  "trusted_reference_status": "TRUSTED_EXPORT_PIPELINE",
+  "is_observational": false,
+  "compressed_size_bytes": 3092707,
+  "compressed_sha256": "2f38cc98e88137426c32c63f2fb182e300d7273931248fc1d28ebba77e9f51a9"
+}
