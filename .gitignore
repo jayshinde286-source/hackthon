@@ -36,3 +36,12 @@ output/*.json
 output/*.csv
 !output/README.md
 
+# Frontend & Node
+node_modules/
+frontend/node_modules/
+
+# SQLite Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/dbguard.db
