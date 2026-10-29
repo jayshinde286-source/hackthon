@@ -16,7 +16,14 @@ import {
   ExternalLink
 } from 'lucide-react';
 
-const NAV_ITEMS = [
+interface NavItem {
+  label: string;
+  to: string;
+  icon: any;
+  badge?: string;
+}
+
+const NAV_ITEMS: NavItem[] = [
   { label: 'Overview', to: '/', icon: Sparkles },
   { label: 'Dashboard', to: '/dashboard', icon: LayoutDashboard },
   { label: 'Analyze Export', to: '/analyze', icon: FileSearch },
@@ -26,8 +33,7 @@ const NAV_ITEMS = [
   { label: 'Recovery Assessment', to: '/recovery', icon: HeartPulse },
   { label: 'Reports Download', to: '/reports', icon: FileText },
   { label: 'Benchmarks & Scalability', to: '/benchmarks', icon: LineChart },
-  { label: 'About & Documentation', to: '/about', icon: Info },
-  { label: 'Viva Study Guide', to: '/viva-guide', icon: GraduationCap, badge: 'Prep' },
+  { label: 'System Architecture', to: '/about', icon: Info },
 ];
 
 export const AppSidebar: React.FC = () => {
@@ -111,3 +117,4 @@ export const AppSidebar: React.FC = () => {
     </aside>
   );
 };
+

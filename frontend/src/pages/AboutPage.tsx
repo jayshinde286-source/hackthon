@@ -27,11 +27,11 @@ export const AboutPage: React.FC = () => {
         </p>
       </div>
 
-      {/* University CSE Mini-Project Badge */}
+      {/* Enterprise Specification Badge */}
       <div className="p-6 rounded-2xl border border-cyan-800/60 bg-gradient-to-r from-slate-900 via-slate-900 to-cyan-950/40 space-y-3">
         <div className="flex items-center gap-2 text-cyan-400 font-mono text-xs uppercase tracking-wider font-semibold">
-          <GraduationCap className="w-5 h-5" />
-          <span>University Computer Engineering Mini-Project</span>
+          <ShieldCheck className="w-5 h-5" />
+          <span>Enterprise Database Reliability Specification</span>
         </div>
         <h2 className="text-xl font-bold text-white">
           DBGuard — Intelligent Integrity Assessment of Compressed Database Exports Without Full Database Restoration
@@ -123,19 +123,20 @@ export const AboutPage: React.FC = () => {
       {/* Navigation CTA */}
       <div className="flex items-center justify-between p-6 rounded-2xl border border-cyan-800/40 bg-slate-900/80">
         <div>
-          <h4 className="text-sm font-semibold text-white">Preparing for University Evaluation?</h4>
+          <h4 className="text-sm font-semibold text-white">Ready to Inspect Database Exports?</h4>
           <p className="text-xs text-slate-400">
-            Review 25+ real exam questions covering database reliability, single-pass streaming, and compression algorithms.
+            Launch a single-pass streaming audit, compare dual archives, or validate cryptographic manifests.
           </p>
         </div>
         <Link
-          to="/viva-guide"
+          to="/analyze"
           className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-xs font-semibold transition-all shadow-md shadow-cyan-500/20"
         >
-          <span>Open Viva Guide</span>
+          <span>Start Stream Analysis</span>
           <ExternalLink className="w-3.5 h-3.5" />
         </Link>
       </div>
     </div>
   );
 };
+

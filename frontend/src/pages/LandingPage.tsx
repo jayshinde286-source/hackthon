@@ -5,11 +5,11 @@ import {
   ArrowRight,
   AlertTriangle,
   GitCompare,
-  GraduationCap,
   Sparkles,
   Lock,
   Layers,
-  Activity
+  Activity,
+  ShieldCheck
 } from 'lucide-react';
 
 export const LandingPage: React.FC = () => {
@@ -23,7 +23,7 @@ export const LandingPage: React.FC = () => {
         <div className="relative z-10 max-w-3xl space-y-6">
           <div className="inline-flex items-center gap-2 rounded-full bg-cyan-950/80 px-3.5 py-1 text-xs font-mono font-medium text-cyan-300 border border-cyan-800">
             <Sparkles className="h-3.5 w-3.5" />
-            <span>CSE Mini-Project &bull; Autonomous Verification Engine</span>
+            <span>Enterprise Edition &bull; Autonomous Verification Engine</span>
           </div>
 
           <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
@@ -52,22 +52,22 @@ export const LandingPage: React.FC = () => {
             </Link>
 
             <Link
-              to="/viva-guide"
-              className="inline-flex items-center gap-2 rounded-xl border border-purple-800/60 bg-purple-950/40 px-5 py-3 text-sm font-semibold text-purple-300 transition-all hover:bg-purple-900/60 active:scale-95"
+              to="/about"
+              className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-slate-800/80 px-5 py-3 text-sm font-semibold text-slate-200 transition-all hover:bg-slate-700 active:scale-95"
             >
-              <GraduationCap className="h-4 w-4" />
-              <span>Viva Guide (25 Q&A)</span>
+              <ShieldCheck className="h-4 w-4 text-cyan-400" />
+              <span>Architecture & Documentation</span>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Official Mini-Project Problem Statement Highlight */}
+      {/* Database Reliability Problem Statement Highlight */}
       <section className="rounded-2xl border border-cyan-900/60 bg-slate-900/50 p-8 space-y-4">
         <div className="flex items-center gap-2 text-cyan-400">
           <AlertTriangle className="h-5 w-5" />
           <h2 className="text-xs font-mono font-bold uppercase tracking-wider">
-            Official University Problem Statement
+            Production Database Reliability Problem Statement
           </h2>
         </div>
 

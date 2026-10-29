@@ -111,3 +111,4 @@ export interface DemoScenario {
   file: string;
   has_manifest: boolean;
 }
+

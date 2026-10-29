@@ -127,7 +127,7 @@ export const ComparePage: React.FC = () => {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-purple-950/60 hover:bg-purple-900 border border-purple-800 text-purple-200 text-xs font-semibold transition-all shadow-md"
         >
           <Sparkles className="w-4 h-4 text-purple-400" />
-          <span>Load Official Mini-Project Paradox (+30% / -20%)</span>
+          <span>Load Paradox Scenario (+30% Rows / -20% Size)</span>
         </button>
       </div>
 
@@ -347,3 +347,4 @@ export const ComparePage: React.FC = () => {
     </div>
   );
 };
+

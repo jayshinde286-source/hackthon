@@ -13,7 +13,6 @@ import { RecoveryPage } from './pages/RecoveryPage';
 import { ReportsPage } from './pages/ReportsPage';
 import { BenchmarksPage } from './pages/BenchmarksPage';
 import { AboutPage } from './pages/AboutPage';
-import { VivaGuidePage } from './pages/VivaGuidePage';
 
 export const App: React.FC = () => {
   return (
@@ -38,7 +37,6 @@ export const App: React.FC = () => {
               <Route path="/reports" element={<ReportsPage />} />
               <Route path="/benchmarks" element={<BenchmarksPage />} />
               <Route path="/about" element={<AboutPage />} />
-              <Route path="/viva-guide" element={<VivaGuidePage />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>
@@ -49,3 +47,4 @@ export const App: React.FC = () => {
 };
 
 export default App;
+

@@ -178,3 +178,4 @@ export const AnalyzePage: React.FC = () => {
     </div>
   );
 };
+

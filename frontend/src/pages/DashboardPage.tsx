@@ -149,7 +149,7 @@ export const DashboardPage: React.FC = () => {
           <div>
             <h2 className="text-lg font-semibold text-white flex items-center gap-2">
               <Play className="w-4 h-4 text-cyan-400" />
-              Interactive Mini-Project Scenarios
+              Enterprise Diagnostic Scenarios
             </h2>
             <p className="text-xs text-slate-400">
               One-click reproducible datasets demonstrating the 30% row increase paradox, stream truncation, and manifest verification.
@@ -308,7 +308,7 @@ export const DashboardPage: React.FC = () => {
         )}
       </div>
 
-      {/* Mini-Project Problem Clarification Card */}
+      {/* Core Database Recovery Clarification Card */}
       <div className="rounded-2xl border border-cyan-900/40 bg-gradient-to-r from-slate-900 via-slate-900/90 to-cyan-950/30 p-6">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div className="space-y-1">
@@ -321,10 +321,10 @@ export const DashboardPage: React.FC = () => {
             </p>
           </div>
           <Link
-            to="/viva-guide"
+            to="/about"
             className="flex-shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 text-xs font-semibold uppercase tracking-wider transition-all"
           >
-            <span>Viva Defense Guide</span>
+            <span>System Architecture</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
@@ -332,3 +332,4 @@ export const DashboardPage: React.FC = () => {
     </div>
   );
 };
+

@@ -19,7 +19,6 @@ export const AppHeader: React.FC = () => {
     if (path.startsWith('/reports')) return 'Audit Report Publishing';
     if (path.startsWith('/benchmarks')) return 'Empirical Benchmarks';
     if (path.startsWith('/about')) return 'Architecture & Methodology';
-    if (path.startsWith('/viva-guide')) return 'Viva Examination Guide';
     return 'DBGuard';
   };
 

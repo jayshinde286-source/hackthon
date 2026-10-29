@@ -324,3 +324,4 @@ export const ManifestPage: React.FC = () => {
     </div>
   );
 };
+
